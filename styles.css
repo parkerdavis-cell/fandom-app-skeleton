@@ -1,0 +1,106 @@
+/* Styles for FANdom App demo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #2a4365;
+  color: #fff;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-bar {
+  background-color: #1a365d;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+}
+
+.nav-bar li {
+  margin: 0;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.nav-bar a.active,
+.nav-bar a:hover {
+  background-color: #4c80bf;
+}
+
+main {
+  padding: 1rem;
+  min-height: calc(100vh - 140px);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #e2e8f0;
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #cbd5e0;
+}
+
+table tr:hover {
+  background-color: #f1f5f9;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2a4365;
+  color: #fff;
+}
+
+.progress-bar {
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  height: 0.5rem;
+}
+
+.progress-bar > div {
+  height: 100%;
+  background-color: #38a169;
+  border-radius: 4px;
+}
